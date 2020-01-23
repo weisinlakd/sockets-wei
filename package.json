@@ -1,16 +1,25 @@
 {
-  "name": "express socket",
-  "version": "1.0.0",
-  "description": "hola.",
-  "main": "index.js",
+  "name": "server-basico-sockets",
+  "version": "0.0.1",
+  "description": "prueba sockets.io",
+  "main": "server/server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server/server.js"
+    "start": "node server/server"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weisinlakd/sockets-wei.git"
+  },
+  "author": "luciano ludueña",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3",
-    "socket.io": "^2.3.0"
-  }
+  "bugs": {
+    "url": "https://github.com/weisinlakd/sockets-wei/issues"
+  },
+  "homepage": "https://github.com/weisinlakd/sockets-wei#readme"
 }
