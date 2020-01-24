@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-
+const { TicketControl } = require('./classes/ticket-control');
 const app = express();
 const http = require('http');
 const server = http.createServer(app);
@@ -10,7 +10,9 @@ require('./sockets/socket');
 
 
 
+// ticket = new TicketControl();
 
+// console.log(ticket)
 
 const publicPath = path.resolve(__dirname, '../public');
 const port = process.env.PORT || 3000;
